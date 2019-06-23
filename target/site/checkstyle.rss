@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>jnotepadpp - Checkstyle report</title>
+    <link>http://maven.apache.org</link>
+    <description>jnotepadpp - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2015 ZEMRIS, Fakultet elektrotehnike i ra?unarstva, Sveu?ilište u Zagrebu</copyright>
+    <item>
+      <title>File: 30,
+             Errors: 2581,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>http://maven.apache.org/checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://maven.apache.org/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.CopyAction.java">hr/fer/zemris/java/hw10/actions/CopyAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  58
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.CutAction.java">hr/fer/zemris/java/hw10/actions/CutAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  65
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.SaveAsAction.java">hr/fer/zemris/java/hw10/actions/SaveAsAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  102
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.InvertAction.java">hr/fer/zemris/java/hw10/actions/InvertAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  65
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.NewTabAction.java">hr/fer/zemris/java/hw10/actions/NewTabAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  51
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.ToLowerAction.java">hr/fer/zemris/java/hw10/actions/ToLowerAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  57
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.jnotepadpp.Menu.java">hr/fer/zemris/java/hw10/jnotepadpp/Menu.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  16
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.jnotepadpp.Tab.java">hr/fer/zemris/java/hw10/jnotepadpp/Tab.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  403
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.ILocalizationListener.java">hr/fer/zemris/java/hw10/i18n/ILocalizationListener.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.SaveAction.java">hr/fer/zemris/java/hw10/actions/SaveAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  107
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.jnotepadpp.ClipboardHandler.java">hr/fer/zemris/java/hw10/jnotepadpp/ClipboardHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  56
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.SortAscendingAction.java">hr/fer/zemris/java/hw10/actions/SortAscendingAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  79
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.FormLocalizationProvider.java">hr/fer/zemris/java/hw10/i18n/FormLocalizationProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  46
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.ChangeLanguageAction.java">hr/fer/zemris/java/hw10/actions/ChangeLanguageAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.jnotepadpp.StatusBar.java">hr/fer/zemris/java/hw10/jnotepadpp/StatusBar.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  86
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.jnotepadpp.JNotepadPP.java">hr/fer/zemris/java/hw10/jnotepadpp/JNotepadPP.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  427
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.LocalizableMenu.java">hr/fer/zemris/java/hw10/i18n/LocalizableMenu.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  41
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.StatsAction.java">hr/fer/zemris/java/hw10/actions/StatsAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  104
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.CloseTabAction.java">hr/fer/zemris/java/hw10/actions/CloseTabAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  78
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.SortDescendingAction.java">hr/fer/zemris/java/hw10/actions/SortDescendingAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  81
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.UniqueAction.java">hr/fer/zemris/java/hw10/actions/UniqueAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  83
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.LocalizableAction.java">hr/fer/zemris/java/hw10/i18n/LocalizableAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  48
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.LocalizationProvider.java">hr/fer/zemris/java/hw10/i18n/LocalizationProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  61
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.LocalizationProviderBridge.java">hr/fer/zemris/java/hw10/i18n/LocalizationProviderBridge.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  62
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.OpenAction.java">hr/fer/zemris/java/hw10/actions/OpenAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  96
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.ILocalizationProvider.java">hr/fer/zemris/java/hw10/i18n/ILocalizationProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.ExitAction.java">hr/fer/zemris/java/hw10/actions/ExitAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  81
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.PasteAction.java">hr/fer/zemris/java/hw10/actions/PasteAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  60
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.i18n.AbstractLocalizationProvider.java">hr/fer/zemris/java/hw10/i18n/AbstractLocalizationProvider.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  46
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#hr.fer.zemris.java.hw10.actions.ToUpperAction.java">hr/fer/zemris/java/hw10/actions/ToUpperAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  57
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

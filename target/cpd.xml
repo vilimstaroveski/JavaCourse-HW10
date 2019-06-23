@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="29" tokens="244">
+      <file line="41"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SortAscendingAction.java"/>
+      <file line="41"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SortDescendingAction.java"/>
+      <codefragment><![CDATA[	public SortAscendingAction(String key, String keyDes2, ILocalizationProvider lp, JTabbedPane tabbedPane) {
+		super(key, keyDes2, lp);
+		this.tabbedPane = tabbedPane;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		Tab tab = (Tab) tabbedPane.getSelectedComponent();
+		JTextArea editor = tab.getEditor();
+		Document doc = editor.getDocument();
+		int start = Math.min(editor.getCaret().getDot(), editor.getCaret().getMark());
+		int length = Math.abs(editor.getCaret().getDot() - editor.getCaret().getMark());
+		
+		try {
+			int offsetOfFirstLine = editor.getLineStartOffset(editor.getLineOfOffset(start));
+			int offsetEndOfLastLine = editor.getLineEndOffset(editor.getLineOfOffset(start+length));
+			
+			int offset = offsetOfFirstLine;
+			String selectedPart = doc.getText(offset, offsetEndOfLastLine - offset);
+			doc.remove(offset, offsetEndOfLastLine - offset);
+			String[] lines = selectedPart.split("\n");
+			List<String> listOfLines = new ArrayList<String>();
+			for(String line : lines) {
+				listOfLines.add(line+"\n");
+			}
+			Locale hrLocale = new Locale("hr");
+			Collator hrCollator = Collator.getInstance(hrLocale);
+			
+			Collections.sort(listOfLines, hrCollator);]]></codefragment>
+   </duplication>
+   <duplication lines="23" tokens="210">
+      <file line="41"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SortAscendingAction.java"/>
+      <file line="41"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SortDescendingAction.java"/>
+      <file line="37"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\UniqueAction.java"/>
+      <codefragment><![CDATA[	public SortAscendingAction(String key, String keyDes2, ILocalizationProvider lp, JTabbedPane tabbedPane) {
+		super(key, keyDes2, lp);
+		this.tabbedPane = tabbedPane;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		Tab tab = (Tab) tabbedPane.getSelectedComponent();
+		JTextArea editor = tab.getEditor();
+		Document doc = editor.getDocument();
+		int start = Math.min(editor.getCaret().getDot(), editor.getCaret().getMark());
+		int length = Math.abs(editor.getCaret().getDot() - editor.getCaret().getMark());
+		
+		try {
+			int offsetOfFirstLine = editor.getLineStartOffset(editor.getLineOfOffset(start));
+			int offsetEndOfLastLine = editor.getLineEndOffset(editor.getLineOfOffset(start+length));
+			
+			int offset = offsetOfFirstLine;
+			String selectedPart = doc.getText(offset, offsetEndOfLastLine - offset);
+			doc.remove(offset, offsetEndOfLastLine - offset);
+			String[] lines = selectedPart.split("\n");
+			List<String> listOfLines = new ArrayList<String>();
+			for(String line : lines) {]]></codefragment>
+   </duplication>
+   <duplication lines="20" tokens="193">
+      <file line="35"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\InvertAction.java"/>
+      <file line="35"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\ToLowerAction.java"/>
+      <codefragment><![CDATA[	public InvertAction(String key, String keyDes, ILocalizationProvider lp, JTabbedPane tabbedPane) {
+		super(key, keyDes, lp);
+		this.tabbedPane = tabbedPane;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		Tab tab = (Tab) tabbedPane.getSelectedComponent();
+		JTextArea editor = tab.getEditor();
+		Document doc = editor.getDocument();
+		int start = Math.min(editor.getCaret().getDot(), editor.getCaret().getMark());
+		int length = Math.abs(editor.getCaret().getDot() - editor.getCaret().getMark());
+		try {
+			String text = doc.getText(start, length);
+			doc.remove(start, length);
+			char[] chars = text.toCharArray();
+			for(int i = 0; i < chars.length; i++) {
+				if(Character.isUpperCase(chars[i])) {
+					chars[i] = Character.toLowerCase(chars[i]);
+				}]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="169">
+      <file line="35"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\InvertAction.java"/>
+      <file line="35"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\ToLowerAction.java"/>
+      <file line="35"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\ToUpperAction.java"/>
+      <codefragment><![CDATA[	public InvertAction(String key, String keyDes, ILocalizationProvider lp, JTabbedPane tabbedPane) {
+		super(key, keyDes, lp);
+		this.tabbedPane = tabbedPane;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		Tab tab = (Tab) tabbedPane.getSelectedComponent();
+		JTextArea editor = tab.getEditor();
+		Document doc = editor.getDocument();
+		int start = Math.min(editor.getCaret().getDot(), editor.getCaret().getMark());
+		int length = Math.abs(editor.getCaret().getDot() - editor.getCaret().getMark());
+		try {
+			String text = doc.getText(start, length);
+			doc.remove(start, length);
+			char[] chars = text.toCharArray();
+			for(int i = 0; i < chars.length; i++) {
+				if(Character.isUpperCase(chars[i])) {]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="122">
+      <file line="49"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\CopyAction.java"/>
+      <file line="51"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\CutAction.java"/>
+      <codefragment><![CDATA[		putValue(Action.ACCELERATOR_KEY, KeyStroke.getKeyStroke("control C"));
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+
+		if(tabbedPane.getTabCount() == 0) {
+			return;
+		}
+		Tab tab = (Tab) tabbedPane.getSelectedComponent();
+		JTextArea editor = tab.getEditor();
+		Document doc = editor.getDocument();
+		int start = Math.min(editor.getCaret().getDot(), editor.getCaret().getMark());
+		int length = Math.abs(editor.getCaret().getDot() - editor.getCaret().getMark());
+		try {
+			clipboard.putOnClipboard(doc.getText(start, length));]]></codefragment>
+   </duplication>
+   <duplication lines="21" tokens="108">
+      <file line="67"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SaveAction.java"/>
+      <file line="62"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SaveAsAction.java"/>
+      <codefragment><![CDATA[			JFileChooser fc = new JFileChooser();
+			fc.setDialogTitle("Save document"); 
+			if(fc.showSaveDialog(parent) != JFileChooser.APPROVE_OPTION) {
+				JOptionPane.showMessageDialog(parent, 
+						"Nothing has been saved!", 
+						"System messege", 
+						JOptionPane.INFORMATION_MESSAGE);
+				return;
+			}
+			Path file = fc.getSelectedFile().toPath();
+			if(Files.exists(file)) {
+				int r = JOptionPane.showConfirmDialog(parent, 
+						"File "+file+" already exist. Do you want to overwrite it?", 
+						"Warning", 
+						JOptionPane.YES_NO_OPTION,
+						JOptionPane.QUESTION_MESSAGE);
+				if(r != JOptionPane.YES_OPTION) {
+					return;
+				}
+			}
+			tab.setFileLocation(file);]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="102">
+      <file line="36"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\InvertAction.java"/>
+      <file line="42"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SortAscendingAction.java"/>
+      <file line="42"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\SortDescendingAction.java"/>
+      <file line="36"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\ToLowerAction.java"/>
+      <file line="36"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\ToUpperAction.java"/>
+      <file line="38"
+            path="C:\Users\Vili\workspaceZaJavaTecaj\jnotepadpp\src\main\java\hr\fer\zemris\java\hw10\actions\UniqueAction.java"/>
+      <codefragment><![CDATA[		super(key, keyDes, lp);
+		this.tabbedPane = tabbedPane;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		Tab tab = (Tab) tabbedPane.getSelectedComponent();
+		JTextArea editor = tab.getEditor();
+		Document doc = editor.getDocument();
+		int start = Math.min(editor.getCaret().getDot(), editor.getCaret().getMark());
+		int length = Math.abs(editor.getCaret().getDot() - editor.getCaret().getMark());
+		try {]]></codefragment>
+   </duplication>
+</pmd-cpd>
